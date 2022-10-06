@@ -247,7 +247,7 @@ alias iam=live
 alias neo="neo -D -c gold"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias ttyper=~/.cargo/bin/ttyper
-alias gotyper=ttyper -l go
+alias gotyper='ttyper -l go'
 
 _have vim && alias vi=vim
 
