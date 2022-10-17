@@ -138,6 +138,7 @@ pathappend \
   /usr/local/games \
   /usr/games \
   /usr/sbin \
+  /usr/share \
   /usr/bin \
   /snap/bin \
   /sbin \
@@ -246,8 +247,10 @@ alias top=bashtop
 alias iam=live
 alias neo="neo -D -c gold"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-alias ttyper=~/.cargo/bin/ttyper
+alias ttyper=~/.cargo/bin/ttyper 
+alias foxtyper='ttyper -l fox'
 alias gotyper='ttyper -l go'
+alias preview='pandoc $1 | lynx -stdin'
 
 _have vim && alias vi=vim
 
